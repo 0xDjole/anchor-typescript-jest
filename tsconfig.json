@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
-        "module": "Commonjs",
-        "target": "ES2018",
-        "lib": ["ES2018"],
+        "moduleResolution": "node",
+        "module": "es2020",
+        "lib": ["es2020", "DOM"],
+        "target": "es2019",
         "declaration": true,
         "noImplicitAny": true,
         "preserveConstEnums": true,

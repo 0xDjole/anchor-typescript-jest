@@ -9,5 +9,6 @@ describe("init", () => {
     const program = anchor.workspace.Init;
     const tx = await program.rpc.initialize();
     console.log("Your transaction signature", tx);
+    expect(tx).toBeTruthy();
   });
 });

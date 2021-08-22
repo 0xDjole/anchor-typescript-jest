@@ -10,5 +10,6 @@
     }
   },
   "transform": { "\\.ts$": ["ts-jest"] },
-  "modulePathIgnorePatterns": ["<rootDir>/dist/"]
+  "modulePathIgnorePatterns": ["<rootDir>/dist/"],
+  "setupFilesAfterEnv": ["<rootDir>/jest.setup.ts"]
 }

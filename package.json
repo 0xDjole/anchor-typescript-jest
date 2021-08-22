@@ -1,13 +1,10 @@
 {
-  "name": "decent-engine",
+  "name": "anchor-typescript-jest",
   "version": "1.0.0",
-  "description": "Decent engine",
+  "description": "Anchor typescript jest",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-init": "anchor test -- -t 'init'"
   },
   "author": "djole-nikolic",
   "license": "ISC",

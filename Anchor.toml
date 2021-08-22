@@ -3,4 +3,4 @@ cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "npx jest --config=jest.config.json ./__tests__"
+test = "npx jest --detectOpenHandles ./__tests__"

@@ -13,5 +13,5 @@
         "resolveJsonModule": true,
         "suppressImplicitAnyIndexErrors": true
     },
-    "include": ["__tests__"]
+    "include": ["__tests__", "migrations"]
 }

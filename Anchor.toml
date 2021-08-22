@@ -3,4 +3,4 @@ cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "npx jest ./__tests__"
+test = "npx jest --config=jest.config.json ./__tests__"

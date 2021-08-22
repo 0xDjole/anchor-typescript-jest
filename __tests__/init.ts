@@ -1,4 +1,4 @@
-const anchor = require("@project-serum/anchor");
+import * as anchor from "@project-serum/anchor";
 
 describe("init", () => {
   // Configure the client to use the local cluster.

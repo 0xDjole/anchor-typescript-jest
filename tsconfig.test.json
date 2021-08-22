@@ -1,8 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "module": "Commonjs",
-    "noEmit": true
-  },
-  "include": ["__tests__", "jest.setup.ts"]
-}

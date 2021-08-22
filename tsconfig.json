@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "Commonjs",
+        "target": "ES2018",
+        "lib": ["ES2018"],
+        "declaration": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": ["__tests__"]
+}
